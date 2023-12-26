@@ -43,6 +43,7 @@ namespace Tyuiu.KomarovMI.Sprint7.Project.V7
             // 
             // buttonRules_KMI
             // 
+            this.buttonRules_KMI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonRules_KMI.BackColor = System.Drawing.Color.White;
             this.buttonRules_KMI.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonRules_KMI.BackgroundImage")));
             this.buttonRules_KMI.ForeColor = System.Drawing.Color.Black;
@@ -57,6 +58,7 @@ namespace Tyuiu.KomarovMI.Sprint7.Project.V7
             // 
             // labelName_KMI
             // 
+            this.labelName_KMI.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelName_KMI.AutoSize = true;
             this.labelName_KMI.BackColor = System.Drawing.Color.White;
             this.labelName_KMI.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -70,6 +72,7 @@ namespace Tyuiu.KomarovMI.Sprint7.Project.V7
             // 
             // pictureBox_KMI
             // 
+            this.pictureBox_KMI.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox_KMI.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox_KMI.Image")));
             this.pictureBox_KMI.Location = new System.Drawing.Point(105, 81);
             this.pictureBox_KMI.Name = "pictureBox_KMI";
@@ -79,6 +82,7 @@ namespace Tyuiu.KomarovMI.Sprint7.Project.V7
             // 
             // buttonAboutme_KMI
             // 
+            this.buttonAboutme_KMI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonAboutme_KMI.BackColor = System.Drawing.Color.White;
             this.buttonAboutme_KMI.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonAboutme_KMI.ForeColor = System.Drawing.Color.Aqua;
@@ -93,6 +97,7 @@ namespace Tyuiu.KomarovMI.Sprint7.Project.V7
             // 
             // buttonOpen_KMI
             // 
+            this.buttonOpen_KMI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonOpen_KMI.BackColor = System.Drawing.Color.Turquoise;
             this.buttonOpen_KMI.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonOpen_KMI.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));

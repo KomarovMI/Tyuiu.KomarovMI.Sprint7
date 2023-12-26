@@ -30,35 +30,37 @@ namespace Tyuiu.KomarovMI.Sprint7.Project.V7
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAboutme));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.labelName = new System.Windows.Forms.Label();
+            this.pictureBoxMyFace = new System.Windows.Forms.PictureBox();
+            this.labelNameAboutMe_KMI = new System.Windows.Forms.Label();
             this.buttonOK = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyFace)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pictureBoxMyFace
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(192, 233);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxMyFace.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMyFace.Image")));
+            this.pictureBoxMyFace.Location = new System.Drawing.Point(12, 23);
+            this.pictureBoxMyFace.Name = "pictureBoxMyFace";
+            this.pictureBoxMyFace.Size = new System.Drawing.Size(192, 233);
+            this.pictureBoxMyFace.TabIndex = 0;
+            this.pictureBoxMyFace.TabStop = false;
             // 
-            // labelName
+            // labelNameAboutMe_KMI
             // 
-            this.labelName.AutoSize = true;
-            this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelName.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.labelName.Location = new System.Drawing.Point(221, 38);
-            this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(392, 160);
-            this.labelName.TabIndex = 1;
-            this.labelName.Text = "Разработчик: Комаров М.И.\r\nГруппа ПКТб-23-1\r\n\r\nПрограмма разработа в рамках изуче" +
+            this.labelNameAboutMe_KMI.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.labelNameAboutMe_KMI.AutoSize = true;
+            this.labelNameAboutMe_KMI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelNameAboutMe_KMI.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.labelNameAboutMe_KMI.Location = new System.Drawing.Point(221, 38);
+            this.labelNameAboutMe_KMI.Name = "labelNameAboutMe_KMI";
+            this.labelNameAboutMe_KMI.Size = new System.Drawing.Size(392, 160);
+            this.labelNameAboutMe_KMI.TabIndex = 1;
+            this.labelNameAboutMe_KMI.Text = "Разработчик: Комаров М.И.\r\nГруппа ПКТб-23-1\r\n\r\nПрограмма разработа в рамках изуче" +
     "ния C#\r\n\r\nТюменский Индустриальный Университет (с) 2023\r\n\r\nВШЦТ (с) 2023\r\n";
             // 
             // buttonOK
             // 
+            this.buttonOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonOK.BackColor = System.Drawing.Color.White;
             this.buttonOK.Image = ((System.Drawing.Image)(resources.GetObject("buttonOK.Image")));
             this.buttonOK.Location = new System.Drawing.Point(537, 209);
@@ -75,11 +77,12 @@ namespace Tyuiu.KomarovMI.Sprint7.Project.V7
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(625, 279);
             this.Controls.Add(this.buttonOK);
-            this.Controls.Add(this.labelName);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.labelNameAboutMe_KMI);
+            this.Controls.Add(this.pictureBoxMyFace);
+            this.MinimumSize = new System.Drawing.Size(641, 318);
             this.Name = "FormAboutme";
             this.Text = "О программе";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyFace)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -87,8 +90,8 @@ namespace Tyuiu.KomarovMI.Sprint7.Project.V7
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.PictureBox pictureBoxMyFace;
+        private System.Windows.Forms.Label labelNameAboutMe_KMI;
         private System.Windows.Forms.Button buttonOK;
     }
 }
